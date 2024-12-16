@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+    <li><a href="link.html"></a></li>
+    <link rel="stylesheet" href="WP.css">
+</head>
+<body>
+        <div class="container">
+        <div class="form-container">
+            <h1>Checkout</h1>
+            <form>
+                <!-- Basic Information -->
+                <fieldset>
+                    <legend>Your Basic Information</legend>
+                    <div class="input-group">
+                        <label for="first-name">First Name</label>
+                        <input type="text" id="first-name" name="first-name" placeholder="Jane">
+                    </div>
+                    <div class="input-group">
+                        <label for="last-name">Last Name</label>
+                        <input type="text" id="last-name" name="last-name" placeholder="Doe">
+                    </div>
+                    <div class="input-group">
+                        <label for="email">E-mail</label>
+                        <input type="email" id="email" name="email" placeholder="janedoe@example.com">
+                    </div>
+                </fieldset>
+
+                <!-- Payment Information -->
+                <fieldset>
+                    <legend>Your Payment Information</legend>
+                    <div class="input-group">
+                        <label for="card-number">Credit Card</label>
+                        <input type="text" id="card-number" name="card-number" placeholder="Card Number">
+                    </div>
+                    <div class="input-row">
+                        <div class="input-group">
+                            <label for="expiry">MM / YY</label>
+                            <input type="text" id="expiry" name="expiry" placeholder="MM/YY">
+                        </div>
+                        <div class="input-group">
+                            <label for="cvc">CVC</label>
+                            <input type="text" id="cvc" name="cvc" placeholder="CVC">
+                        </div>
+                    </div>
+                </fieldset>
+
+                <button type="submit" class="btn">Buy WP Pusher</button>
+                <p class="support-text">Need any help? <a href="#">Contact support</a></p>
+            </form>
+        </div>
+        <div class="sidebar">
+            <div style="background-color:#0073e6 ;">
+            <h2>Freelancer</h2>
+            <p class="price">$99 / year</p>
+            <p>Automatically renews after 1 year</p>
+            <ul>
+                <li>Use on client sites</li>
+                <li>Private repositories</li>
+                <li>Email support</li>
+            </ul>
+            <p>Need 20 client sites? <a href="#">Switch to the Agency plan</a></p>
+            <blockquote>
+                <p>"FTP is horrible to deal with. WP Pusher solves that issue, and the customer support is awesome!"</p>
+                <cite>- Kirk Beard</cite>
+            </blockquote>
+        </div>
+    </div>
+</body>
+</html>
